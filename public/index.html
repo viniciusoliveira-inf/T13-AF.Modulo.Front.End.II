@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- MEU CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- PROGRAMAÇÃO FRONT-END II -->
+    <!-- Avaliação Final - Front End II -->
+    <title>RecadOS</title>
+</head>
+
+<body>
+    <div id="alertas" class="alert" role="alert" style="display: none; width: 50vw; text-align: center"></div>
+    <div class="container-fluid">
+        <div class="signUpImg"></div>
+        <div class="signInImg"></div>
+        <div class="formContainer">
+            <form class="formSignIn">
+                <h1 class="title">Sign In</h1>
+                <div class="fields">
+                    <input type="email" class="signInEmail" placeholder="e-mail">
+                    <input type="password" class="signInSenha" placeholder="senha">
+                    <button type="submit" class="signInBotao btn btn-dark">Prosseguir</button>
+                    <p class="link" onclick="switchForm('signup')">Ainda não tem cadastrado?</p>
+                </div>
+            </form>
+            <form class="formSignUp">
+                <h1 class="title">Sign Up</h1>
+                <div class="fields">
+                    <input type="text" class="signUpNome" placeholder="nome">
+                    <input type="email" class="signUpEmail" placeholder="e-mail">
+                    <input type="password" class="signUpSenha1" placeholder="senha">
+                    <input type="password" class="signUpSenha2" placeholder="confirmação da senha">
+                    <button type="submit" class="signUpBotao btn btn-dark">Cadastrar</button>
+                    <p class="link" onclick="switchForm('signin')">Já tem cadastro?</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- <div class="formPrincipal">
+        <div class="signUpImg"></div>
+        <div class="signInImg"></div>
+        <div class="formContainer">
+            <form class="formSignIn">
+                <h1 class="title">Sign In</h1>
+                <div class="fields">
+                    <input type="email" class="signInEmail" placeholder="e-mail">
+                    <input type="password" class="signInSenha" placeholder="senha">
+                    <button type="submit" class="signInBotao btn">prosseguir</button>
+                    <p class="link" onclick="switchForm('signup')">Ainda não tem cadastrado?</p>
+                </div>
+            </form>
+            <form class="formSignUp">
+                <h1 class="title">Sign Up</h1>
+                <div class="fields">
+                    <input type="text" class="signUpNome" placeholder="nome">
+                    <input type="email" class="signUpEmail" placeholder="e-mail">
+                    <input type="password" class="signUpSenha1" placeholder="senha">
+                    <input type="password" class="signUpSenha2" placeholder="confirmação da senha">
+                    <button type="submit" class="signUpBotao btn">cadastrar</button>
+                    <p class="link" onclick="switchForm('signin')">Já tem cadastro?</p>
+                </div>
+            </form>
+        </div>
+    </div> -->
+    <!-- JavaScript -->
+    <script src="js/alertas.js"></script>
+    <script src="js/index.js"></script>
+    <!-- jQuery, Popper.js e Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
