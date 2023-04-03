@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #171717;
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+    font-family: 'roboto', sans-serif;
+}
+
+header {
+    height: 80px;
+}
+
+.titulo {
+    float: left;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.btn {
+    border: none;
+    font-size: 14px;
+    margin: auto;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.sairBotao {
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+    width: 15vw;
+    padding: 10px 40px;
+}
+
+.alert {
+    display: none;
+    width: 91.5vw;
+    text-align: center
+}
+
+main {
+    margin: auto;
+    width: 95vw;
+    min-height: calc(95vh - 90px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.75);
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+
+.entrada-dados {
+    padding: 10px 0 20px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.form input {
+    padding: 5px 5px;
+    border-radius: 5px;
+    transition: .5s;
+    font-size: 15px;
+}
+
+#textoDescricao {
+    flex: 3;
+}
+
+#textoDetalhamento {
+    flex: 4;
+}
+
+#salvarBotao {
+    flex: 1;
+    width: 10%;
+    transition: .5s;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.tabela-dados {
+    text-align: center;
+}
+
+.tabela-dados table {
+    display: inline-block;
+    width: 100%;
+    border-collapse: collapse;
+    position: relative;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.75);
+    flex-direction: row;
+}
+
+#cabecalho-tabela {
+    font-size: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #efefef83;
+}
+
+.tabela-dados th {
+    height: 30px;
+    border-bottom: 1px solid #999;
+    background-color: #555;
+    color: #fff;
+}
+
+.col1 {
+    width: 20vw;
+}
+
+.col2 {
+    width: 30vw;
+}
+
+.col3 {
+    width: 30vw;
+}
+
+.col4 {
+    width: 20vw;
+}
+
+#salvarBotao,
+#textoDetalhamento {
+    margin-left: 10px;
+}
+
+#sairBotao:hover,
+input:focus {
+    background: #000000;
+    color: #fff;
+}
+
+#salvarBotao:hover,
+.botaoEditar:hover {
+    background: #3c31d4;
+    color: #fff;
+}
+
+.botaoExcluir:hover {
+    background: #c94b4b;
+    color: #fff;
+}
+
+.modal {
+    color: black;
+}
